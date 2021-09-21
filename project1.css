@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('e.jpg'); 
+}
+.stick{
+    position: sticky;
+}
+.l{
+    border: 3px solid rgb(255, 255, 255);
+    left: 51px;
+    top: 20px;
+    width: 10%;
+    line-height: 18px;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+}
+.l img{
+    width: 100%;
+}
+.r{
+    border: 3px solid rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+.bt{
+    cursor: pointer;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0px 10px;
+    padding: 1px 5px;
+    text-decoration: none;
+}
+.bt:hover{
+    background-color: rgb(92, 92, 92);
+    color: white;
+}
+.m{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background: url('g.jpg');
+    display: block;
+    margin: 20px auto;
+    width: 46%;
+}
+.nv{
+    display: inline-block;
+}
+.nv li{ 
+    display: inline-block;
+    font-size: 20px;
+}
+.nv li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding: 34px 23px;
+}
+.nv li a:hover{
+    text-decoration: underline;
+    color: rgb(218, 218, 218);
+    padding: 34px 23px;
+}
+.abc{
+    display: block;
+    width: 815px;
+    height: 330px;
+    margin: 140px auto;
+    background: url('https://source.unsplash.com/815x330/?school');
+    border: 4x solid rgb(255, 255, 255);
+}
+.a1{
+    margin: 20px auto;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large; 
+    margin: auto;
+    width: 55%;
+    border: 3px solid rgb(255, 255, 255);
+}
+.aaa{
+    display: inline-block;
+    border: 3px solid rgb(255, 255, 255);
+    left: 19px;
+    top: 690px;
+    width: 18%;
+    position: absolute;
+}
+
